@@ -1,5 +1,5 @@
 .main-banner{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/banner.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/banner.jpg");
     height: 100vh;
     background-position: center center; /*do responsywnosci, zawsze w centrum*/
     background-size: cover; /*wypelnienie tla obrazkiem*/
