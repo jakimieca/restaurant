@@ -1,0 +1,43 @@
+.bookmark{
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    padding: 8vh 5vw;
+}
+.menu-tab{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/menu-tab.jpg");
+}
+.gallery-tab{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/gallery.jpg");
+}
+.contact-tab{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/contant.jpg");
+}
+.map-tab{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/road.jpg");
+}
+
+.bookmark__header {
+    text-transform: uppercase;
+    font-size: 100px;
+    margin: 0;
+}
+
+@media(max-width:1200px){
+    .bookmark__header{
+        font-size: 10vw; /*10% zajmuje*/
+    }
+
+}
+
+.bookmark__text {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+
+@media(max-width:767px){
+    .bookmark__text{
+        font-size:16px;
+    }
+}
