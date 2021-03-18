@@ -19,6 +19,7 @@
     <link href="css/bookmark.css" rel="stylesheet">
     <link href="css/menu.css" rel="stylesheet">
     <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/contact-form.css" rel="stylesheet">
     <link href="css/map.css" rel="stylesheet">
     <script defer src="JS/script.js"></script>
 </head>
@@ -352,15 +353,33 @@
         </div>
     </section>
 
-    <div class="contact-description container">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint sed quas iste repellendus ipsum, eveniet
-            ducimus vel beatae facilis similique, in magnam, dolorem reprehenderit fugiat suscipit quae fugit.
-            Similique, a.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nostrum distinctio quisquam esse
-            excepturi dignissimos nam provident quia? Enim quibusdam sunt suscipit impedit illum nihil voluptatibus
-            architecto alias quo laboriosam.
-        </p>
+    <form class="contact-form">
+
+        <div class="container container--smaller">
+            <div class="contact-form__info">
+                <div class="contact-form__info--item">
+                    <img src="/images/envelope.svg" class="contact__form--icon">
+                    <a href="mailto:kontakt@retauracja.pl" class="contact__form--link">kontakt@retauracja.pl</a>
+                </div>
+                <div class="contact-form__info--item">
+                    <img src="/images/phone.svg" class="contact__form--icon">
+                    <a href="tel:548521669" class="contact__form--link">548 521 669</a>
+                </div>
+            </div>
+            <p class="contact__form--text">
+                Jeśli nie znalazłeś na naszej stronie informacji, których potrzebujesz,<br>
+                wyślij formularz kontaktowy lub zadzwoń.<br>
+                Chętnie z Tobą porozmawiamy i odpowiemy na wszystkie pytania.
+            </p>
+            <div class="contact__form--fields">
+                <input name="name" required class="contact__form--field" placeholder="Imię i nazwisko">
+                <input name="mail" type="email" required class="contact__form--field" placeholder="Adres email">
+                <textarea class="contact__form--field contact__form--textarea" required rows="10" placeholder="Treść wiadomości"></textarea>
+    </form>
+    </div>
+
+
+
 
     </div>
 
